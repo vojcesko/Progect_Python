@@ -213,6 +213,46 @@ table, th, td {
 }
 
 th {
-  background-color: #f2f2f2;
+  background-color: #d4a0a0;
   text-align: left;
 }
+
+
+.container {
+  max-width: 600px;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  background-color: #d4a0a0;
+}
+.form-control {
+  
+  padding: 10px;
+  border: 1px solid #d4a0a0;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.form-control:focus {
+  border-color: #80ffa6;
+  outline: none;
+  box-shadow: 0 0 5px rgba(128, 189, 255, 0.5);
+}
+.form-label {
+  font-weight: bold;
+  color: #495057;
+}
+.btn-primary {
+  background-color: #ff0000;
+  border-color: #ff0000;
+  transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+  background-color: #ede21d;
+  border-color:#ede21d ;
+}
+.d-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
